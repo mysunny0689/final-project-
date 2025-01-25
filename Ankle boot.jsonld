@@ -1,0 +1,47 @@
+[ {
+  "@context" : "http://www.w3.org/ns/anno.jsonld",
+  "id" : "https://recogito.pelagios.org/annotation/8e8751a3-6419-41fd-a678-7bc6789d8ffd",
+  "type" : "Annotation",
+  "generator" : {
+    "id" : "https://recogito.pelagios.org/",
+    "type" : "Software",
+    "name" : "Recogito",
+    "homepage" : "https://recogito.pelagios.org/"
+  },
+  "generated" : "2025-01-25T19:19:10+00:00",
+  "body" : [ {
+    "type" : "TextualBody",
+    "value" : "Annotation 1",
+    "creator" : "https://recogito.pelagios.org/sunny0689",
+    "modified" : "2025-01-25T18:39:36+00:00",
+    "purpose" : "transcribing"
+  }, {
+    "type" : "SpecificResource",
+    "value" : "PERSON",
+    "creator" : "https://recogito.pelagios.org/sunny0689",
+    "modified" : "2025-01-25T18:39:36+00:00",
+    "purpose" : "identifying"
+  }, {
+    "type" : "TextualBody",
+    "value" : "Ankle boot",
+    "creator" : "https://recogito.pelagios.org/sunny0689",
+    "modified" : "2025-01-25T18:59:32+00:00",
+    "purpose" : "commenting"
+  }, {
+    "type" : "TextualBody",
+    "value" : "Ankle boot",
+    "creator" : "https://recogito.pelagios.org/sunny0689",
+    "modified" : "2025-01-25T17:52:29+00:00",
+    "purpose" : "tagging"
+  } ],
+  "target" : {
+    "source" : "https://recogito.pelagios.org/part/25bac2ee-cf03-45fc-98b2-d3bb66839ab2",
+    "type" : "Image",
+    "label" : "image1.png",
+    "selector" : [ {
+      "type" : "FragmentSelector",
+      "conformsTo" : "http://www.w3.org/TR/media-frags/",
+      "value" : "xywh=pixel:2,2,25,24"
+    } ]
+  }
+} ]
