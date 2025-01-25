@@ -1,0 +1,18 @@
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "http://example.org/anno_processed_1",
+    "type": "Annotation",
+    "body": {
+        "type": "TextualBody",
+        "value": "Boot",
+        "format": "text/plain"
+    },
+    "target": {
+        "source": "http://example.org/images/processed_1.png",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=0,0,28,28"
+        }
+    }
+}
